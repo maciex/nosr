@@ -9,6 +9,7 @@
 #include "result.h"
 
 #define CACHEPATH  "/var/cache/nosr"
+#define DBPATH     "/var/lib/pacman"
 
 struct archive_read_buffer {
 	char *line;
